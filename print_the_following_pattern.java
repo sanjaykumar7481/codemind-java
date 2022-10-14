@@ -8,10 +8,10 @@ public static void main(String args[])
  {    
     for(int j=1;j<=count;j++)
     {
-        if(j==1||i==j||i==count)
-        System.out.print("*"+"");
+        if(j==1||i==j||j==count)
+        System.out.print("*"+" ");
         else
-        System.out.print(" "+"");
+        System.out.print(" "+" ");
     }
     System.out.print("
 ");
