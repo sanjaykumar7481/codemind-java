@@ -7,12 +7,9 @@ public static void main(String args[])
  int k=1;
  for(int i=1;i<=count;i++)
  {    
-    for(int j=1;j<=count;j++)
+    for(int j=count;j>0;j--)
     {
-        if(j==k)
-        System.out.print("0"+"");
-        else
-        System.out.print("x"+"");
+        System.out.print(j+" ");
     }
     k++;
     System.out.print("
