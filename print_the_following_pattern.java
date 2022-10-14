@@ -4,11 +4,14 @@ public static void main(String args[])
 {   
  Scanner sc=new Scanner(System.in);
  int count=sc.nextInt();
- for(int i=count;i>0;--i)//loop starts from 2 because 0 and 1 are already printed    
+ for(int i=1;i<=count;i++)
  {    
-    for(int j=1;j<=i;j++)
+    for(int j=1;j<=count;j++)
     {
-        System.out.print(j);
+        if(j==1||i==j||i==count)
+        System.out.print("*"+"");
+        else
+        System.out.print(" "+"");
     }
     System.out.print("
 ");
