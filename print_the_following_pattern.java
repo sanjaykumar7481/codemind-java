@@ -9,10 +9,10 @@ public static void main(String args[])
  {    
     for(int j=1;j<=count;j++)
     {
-        if(j==k||j==count-k+1)
-        System.out.print("x"+"");
-        else
+        if(j==k)
         System.out.print("0"+"");
+        else
+        System.out.print("x"+"");
     }
     k++;
     System.out.print("
